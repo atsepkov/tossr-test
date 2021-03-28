@@ -2,4 +2,6 @@
 <script>
     import { page, meta } from '@roxi/routify'
     $: meta.title = 'Investomation'
-  </script>
+</script>
+
+<slot />
