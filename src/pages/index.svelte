@@ -6,10 +6,4 @@
     <meta property="og:image" content="https://investomation.com/static/landing_image_1.png">
 </svelte:head>
 
-<script>
-    import { ready } from "@roxi/routify";
-
-    $ready()
-</script>
-
 <p>test index</p>
