@@ -1,4 +1,6 @@
 [
   "/blog/index",
-  "/index"
+  "/index",
+  "/spa",
+  "/ssr"
 ]

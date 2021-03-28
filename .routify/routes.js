@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.15.1
- * File generated Sun Mar 28 2021 14:32:46 GMT-0400 (Eastern Daylight Time)
+ * File generated Sun Mar 28 2021 15:13:29 GMT-0400 (Eastern Daylight Time)
  */
 
 export const __version = "2.15.1"
-export const __timestamp = "2021-03-28T18:32:46.407Z"
+export const __timestamp = "2021-03-28T19:13:29.478Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -124,6 +124,56 @@ export const _tree = {
       "path": "/index",
       "id": "_index",
       "component": () => import('../src/pages/index.svelte').then(m => m.default)
+    },
+    {
+      "isFile": true,
+      "isDir": false,
+      "file": "spa.svelte",
+      "filepath": "/spa.svelte",
+      "name": "spa",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "/home/atsepkov/work/sandbox/tossr-test/src/pages/spa.svelte",
+      "importPath": "../src/pages/spa.svelte",
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": true,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/spa",
+      "id": "_spa",
+      "component": () => import('../src/pages/spa.svelte').then(m => m.default)
+    },
+    {
+      "isFile": true,
+      "isDir": false,
+      "file": "ssr.svelte",
+      "filepath": "/ssr.svelte",
+      "name": "ssr",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "/home/atsepkov/work/sandbox/tossr-test/src/pages/ssr.svelte",
+      "importPath": "../src/pages/ssr.svelte",
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": true,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/ssr",
+      "id": "_ssr",
+      "component": () => import('../src/pages/ssr.svelte').then(m => m.default)
     }
   ],
   "isLayout": true,
